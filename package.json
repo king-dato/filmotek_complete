@@ -1,0 +1,40 @@
+{
+  "name": "goit-filmoteka-2022",
+  "version": "2.0.0",
+  "description": "",
+  "homepage": "https://syniepolskyi.github.io/Filmoteka",
+  "scripts": {
+    "open": "parcel src/*.html --open",
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /Filmoteka/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syniepolskyi/Filmoteka"
+  },
+  "keywords": [],
+  "author": "DreamTeam GoIT#2",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "basiclightbox": "^5.0.4",
+    "firebase": "^9.9.4",
+    "handlebars": "^4.7.7",
+    "handlebars-helpers": "^0.9.8",
+    "modern-normalize": "^1.1.0",
+    "notiflix": "^3.2.5",
+    "parcel-plugin-handlebars-json": "^1.3.0",
+    "swiper": "^8.3.2"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "2.7.0",
+    "buffer": "^6.0.3",
+    "parcel": "^2.6.0",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "parcel-transformer-hbs": "*",
+    "posthtml-include": "^1.7.4",
+    "process": "^0.11.10"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
